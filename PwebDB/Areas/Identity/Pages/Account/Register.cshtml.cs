@@ -131,6 +131,8 @@ namespace PwebDB.Areas.Identity.Pages.Account
                 }
 
                 user.FechaRegistro = Input.FechaRegistro;
+             
+
 
                 var result = await _userManager.CreateAsync(user, Input.Password);
 
