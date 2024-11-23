@@ -33,5 +33,18 @@ namespace PwebDB.Controllers
         {
             return View();
         }
+        public ActionResult Productos()
+        {
+            return View();
+        }
+        public ActionResult Categorias()
+        {
+            return View();
+        }
+        public ActionResult Marcas()
+        {
+            return View();
+        }
+
     }
 }
