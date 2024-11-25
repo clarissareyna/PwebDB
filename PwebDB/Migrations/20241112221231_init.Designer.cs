@@ -13,7 +13,7 @@ namespace PwebDB.Migrations
 {
     [DbContext(typeof(PerfimeDatabaseContext))]
     [Migration("20241112221231_init")]
-    partial class init
+    partial class Init
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
